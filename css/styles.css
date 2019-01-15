@@ -89,3 +89,27 @@
         black 40%,
         gray 100%);
 }
+
+.person-of-the-week {
+    background-color: gray;
+    height: 400px;
+}
+
+.persons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.person-one, .person-four, .person-five {
+    background-color: rgb(194, 194, 194);
+}
+
+.person-two, .person-three, .person-six {
+    background-color: lightgray;
+}
+
+.advertise-book {
+    background-color: gray;
+    height: 400px;
+}
