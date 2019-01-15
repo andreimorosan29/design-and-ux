@@ -1,0 +1,56 @@
+.topbar {
+    display:flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.topbar * {
+    border: 1px solid black;
+    width: 14.28%;
+    background-color: #b7b5b5;
+}
+
+.topbar-element-one, .topbar-element-seven {
+    background-color: #d3d3d3;
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px;
+    
+}
+
+.main-grid-container * {
+    border: 1px solid black;
+}
+
+.container-title {
+    position: absolute;    
+    text-align:center;
+    color: white;
+    left: 40%;
+    top: 30%;
+    border: none;
+}
+
+.container-title > span {
+    background-color: black;
+    line-height: 30px;
+}
+
+.top-left {
+    background-image: linear-gradient(to bottom left, gray, lightgray)
+}
+
+.top-right {
+    background-image: linear-gradient(to bottom right, gray, lightgray)
+}
+
+.bottom-left {
+    background-image: linear-gradient(-90deg, gray, lightgray);
+}
+
+.bottom-right {
+    background-image: linear-gradient(90deg, gray, lightgray);
+}
